@@ -1,0 +1,27 @@
+{
+    "name": "nfemail-sdk",
+    "description": "NFeMail Sdk para facil integração com a API do https://nfemail.com.br/ - NÃO OFICIAL",
+    "keywords": ["php", "api", "integration", "sdk", "xml", "json"],
+    "license": "MIT",
+    "homepage": "https://nfemail.com.br/",
+    "authors": [
+        {
+            "name": "Wallace Silva",
+            "email": "contato@wallacesilva.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "NfeMail\\": "src"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "require": {
+        "php": "^5.6"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^3.1"
+    }
+}
