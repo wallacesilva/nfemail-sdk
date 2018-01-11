@@ -17,7 +17,6 @@ composer require wallacesilva/nfemail-sdk
 Baixe ou clone o repositorio completo. Depois adicione(require) o arquivo autoload.php no seu projeto. [Faça o download aqui](https://github.com/wallacesilva/nfemail-sdk/archive/master.zip)
 
 ```
-<?php 
 # informe o caminho para o projeto corretamente, se necessário
 require_once(__DIR__.'/nfemail-sdk/autoload.php');
 ```
@@ -32,11 +31,9 @@ Para usar é simples basta chamar uma instancia e fazer os request. Veja abaixo 
 
 ### Chamar instancia principal
 ```
-<?php
 $cnpj = 'cnpj aqui';
 $apikey = 'chave de acesso'; 
 $nfemail = new \NfeMail\NfeMail($cnpj, $apikey);
-?>
 ```
 
 ### Listar Clientes
