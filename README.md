@@ -2,6 +2,8 @@
 
 Essa é uma biblioteca, não oficial, para acessar facilmente a API do [http://www.nfemail.com.br](http://www.nfemail.com.br). Para acessar a api você precisa de uma chave de acesso e para isso entre em contato com suporte que irão disponibilizar para você.
 
+Para acessar a documentação da API do NfeMail acesse: (http://www.nfemail.com.br/Manualapi/)
+
 ## Instalação
 
 ### Metodo 1 - Usando o Composer
