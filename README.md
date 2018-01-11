@@ -61,6 +61,15 @@ Caso tenha dúvidas e queira ver formas de usar essa SDK acesse a pasta `example
 
 Caso tenha problemas e/ou dúvidas crie uma nova issue aqui (https://github.com/wallacesilva/nfemail-sdk/issues)
 
+## TODO
+
+Aqui algumas coisas que precisa ser feito e você pode ajudar com um pull request.
+
+- Criar Provider para usar no Laravel/Lumen Framework;
+- Adicionar mais exemplos de consumo da api;
+- Criar testes básicos;
+- Add projeto no packagist/composer;
+
 ## Versionamento
 
 O ideal é trabalhar com o padrão SEMVER, muito comum no mundo de software e linux, porém essa é uma versão por enquanto, caso não conheça saiba mais em (http://semver.org/).
