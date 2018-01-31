@@ -1,5 +1,5 @@
 {
-    "name": "nfemail-sdk",
+    "name": "wallacesilva/nfemail-sdk",
     "description": "NFeMail Sdk para facil integração com a API do https://nfemail.com.br/ - NÃO OFICIAL",
     "keywords": ["php", "api", "integration", "sdk", "xml", "json"],
     "license": "MIT",
