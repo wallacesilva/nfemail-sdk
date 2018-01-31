@@ -25,7 +25,7 @@ require_once(__DIR__.'/nfemail-sdk/autoload.php');
 
 ## Requisitos
 
-* PHP 5.4+ (sugerido 7.1+)
+* PHP 5.6+ (sugerido 7.1+)
 
 ## Como usar 
 
