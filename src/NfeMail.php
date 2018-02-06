@@ -133,4 +133,12 @@ class NfeMail
     {
         return ($this->produtos instanceof Produtos) ? $this->produtos : (new Produtos($this));
     }
+
+    public function enviarArquivoXml($xml)
+    {
+        $data = '='.urlencode($xml);
+
+        return $this->httpClient->request('/ArquivoXML', $data, 'POST');
+    }
+
 }
