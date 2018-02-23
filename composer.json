@@ -21,6 +21,7 @@
     "require": {
         "php": ">=5.6"
     },
+    "minimum-stability": "dev",
     "require-dev": {
         "symfony/var-dumper": "^3.1"
     }
