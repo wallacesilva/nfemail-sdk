@@ -148,11 +148,17 @@ class Xml
             $xmlStringArray[] = '       <PISNT>';
             $xmlStringArray[] = sprintf('<CST>%s</CST>', $item->imposto->PIS->PISNT->CST);
             $xmlStringArray[] = '       </PISNT>';
+            $xmlStringArray[] = '       <PISOutr>';
+            $xmlStringArray[] = sprintf('<CST>%s</CST>', $item->imposto->PIS->PISOutr->CST);
+            $xmlStringArray[] = '       </PISOutr>';
             $xmlStringArray[] = '   </PIS>';
             $xmlStringArray[] = '   <COFINS>';
             $xmlStringArray[] = '       <COFINSNT>';
             $xmlStringArray[] = sprintf('<CST>%s</CST>', $item->imposto->COFINS->COFINSNT->CST);
             $xmlStringArray[] = '       </COFINSNT>';
+            $xmlStringArray[] = '       <COFINSOutr>';
+            $xmlStringArray[] = sprintf('<CST>%s</CST>', $item->imposto->COFINS->COFINSOutr->CST);
+            $xmlStringArray[] = '       </COFINSOutr>';
             $xmlStringArray[] = '   </COFINS>';
             $xmlStringArray[] = '</imposto>';
 
